@@ -11,6 +11,9 @@ on:
     paths:
       - 'docs/**'
 
+permissions:
+  contents: read
+
 jobs:
   deploy:
     name: build doc and deploy to gh pages
